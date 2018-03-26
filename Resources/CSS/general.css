@@ -1,0 +1,97 @@
+body{
+	font-family: 'Josefin Sans', sans-serif;
+	margin: 0px;
+	padding: 0px;
+	background-image: url("../Images/background.jpg");
+	background-color: rgb(242, 240, 239);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+}
+.italic{
+	font-style: italic;
+}
+.center{
+	text-align: center;
+}
+p{
+	font-size: 20px;
+}
+.icon{
+	border-radius: 5px;
+}
+.break{
+	margin-bottom: 3em;
+}
+header{
+	position: fixed;
+	width: 100%;
+	margin: 0px;
+	padding: 0px;
+	background-color: rgba(78, 78, 78, 1);
+	z-index: 3;
+	box-shadow: 0px 0px 15px 3px #666666;
+}
+.besideImage{
+	display: inline-block;
+}
+.headerNavText{
+	font-size: 25px;
+	text-decoration: none;
+	color: #e6e6e6;
+}
+#headerText{
+	text-align: center;
+	color: white;
+	font-size: 40px;
+	margin: 15px;
+	margin-top: 20px;
+}
+#headerTitle{
+	color: white;
+	font-size: 40px;
+	text-decoration: none;
+}
+a:hover{
+	color: #b0b0b0;
+}
+.small{
+	font-size: 15px;
+}
+.h2{ /*Use this class + <a> tag to make smaller headings beside main ones*/
+	font-size: 15px;
+	display: inline-block;
+	margin-left: 1ex;
+}
+h2{
+	font-size: 27px;
+}
+.pageBanner{
+	box-shadow: 0px 3px 20px -1px #777777;
+	margin-left: -50px;
+	margin-top: -15px;
+}
+.bannerImage{
+	box-shadow: 0px 0px 30px 2px #777777;
+	margin-left: -50px;
+	margin-top: -10px;
+}
+.boxImage{
+	border-style: solid;
+	border-color: #777777;
+	border-radius: 10px;
+	box-shadow: 0px 0px 15px 2px #777777;
+}
+#wrapper{ /* All content should be in the wrapper*/
+	box-shadow: 0px 0px 10px 3px #777777;
+	position: absolute;
+	width: 900px;
+	left: 50%;
+	min-height: 90%;
+	top: 70px;
+	margin-left: -510px;
+	margin-top: 0px;
+	padding: 50px;
+	padding-top: 20px;
+	background-color: white;
+}
