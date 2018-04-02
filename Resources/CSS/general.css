@@ -15,7 +15,8 @@ body{
 	text-align: center;
 }
 p{
-	font-size: 20px;
+	font-size: 25px;
+	line-height: 35px;
 }
 .icon{
 	border-radius: 5px;
@@ -77,10 +78,9 @@ h2{
 	margin-top: -10px;
 }
 .boxImage{
-	border-style: solid;
-	border-color: #777777;
-	border-radius: 10px;
 	box-shadow: 0px 0px 15px 2px #777777;
+	float:left;
+	margin-right: 20px;
 }
 #wrapper{ /* All content should be in the wrapper*/
 	box-shadow: 0px 0px 10px 3px #777777;
