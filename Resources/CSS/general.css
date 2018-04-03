@@ -84,15 +84,23 @@ figure{
 }
 .floatLeft{
 	float: left;
+	margin-left: 0px;
+	padding-left: 0px;
+	text-align: left;
 }
 .floatRight{
 	float: right;
+	margin-right: 0px;
+	padding-right: 0px;
+	text-align: right;
 }
 figcaption{
 	margin-top: 10px;	
 }
 .boxImage{
 	box-shadow: 0px 4px 10px 0px #777777;
+	margin-right: 0px;
+	padding-right: 0px;
 }
 #wrapper{ /* All content should be in the wrapper*/
 	box-shadow: 0px 0px 10px 3px #777777;
